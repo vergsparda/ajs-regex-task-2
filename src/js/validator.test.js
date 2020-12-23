@@ -15,7 +15,7 @@ test('phone test2', () => {
 });
 
 test('phone test3', () => {
-  const phone = '+56*987%345$3456#';
+  const phone = '56*987%345$3456#';
   const result = '+569873453456';
 
   expect(Validator.checkPhone(phone)).toBe(result);
